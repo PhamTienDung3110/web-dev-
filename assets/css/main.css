@@ -1,0 +1,183 @@
+#learn-forms {
+    display: flex;
+    flex-direction: reverse;
+}
+
+#content {
+    width: 100%;
+    overflow-y: scroll;
+    height: 700px
+}
+
+.header__forms {
+    display: block;
+    
+    
+}
+
+.header__brand {
+    display: flex;
+    /* flex-wrap: nowrap;     */
+    align-items: center;
+    justify-content: space-between;
+    color: #585B63;
+    font-size: 18px;
+    padding: 18px;
+    height: 65px;
+}
+
+.header__content{
+    display: flex;
+    flex-direction: row;
+}
+
+.header-menu img {
+    width: 100px;
+    margin-top: 3px;
+}
+
+.header-menu a {
+    margin: 18px;
+    color: #585B63;
+    
+}
+
+.header__forms .header__content .header-menu a {   
+    font-size: 18px;
+}
+
+.header__forms .header__content .header-menu a:hover {
+    text-decoration: none;
+}
+
+ul.header__content {
+    list-style-type: none;
+}
+
+.share a {
+    color: #585B63;
+    text-decoration: none;
+}
+
+#page-wrapper {  
+    margin: 80px auto; 
+    max-width: 800px;
+   
+}
+
+#course-intro h1 {
+    font-size: 48px;
+    font-weight: 400;
+}
+
+#course-content h2 {
+    font-size: 36px;
+    font-weight: 400;
+}
+
+.on-this-page {
+    border: 1px solid #D3D4D8;
+    padding: 16px 8px 20px 8px;
+    border-left: none;
+    border-right: none;
+
+}
+
+.on-this-page a {
+    text-decoration: none;
+    font-size: 20px;
+    color: #3740ff;
+}
+
+
+
+   
+
+
+aside {
+    height: 100%;
+    width: 353px;
+}
+
+.leftbar__title {
+    font-weight: 600;
+    font-size: 26px;
+    color: #000;
+    padding-left: 60px;
+   
+}
+
+.forms-text {
+    color: red
+}
+
+#search-box {
+   margin-top: 20px;
+   padding: 0 20px;
+}
+
+#web-search {
+    position: relative;
+    padding: 8px 8px 8px 40px;
+    align-items: center;
+    width: 100%;
+
+}
+
+.search-icon {
+    position: absolute;
+    z-index: 100;
+    padding: 6px;
+   
+
+}
+
+.leftbar-scroll {
+    overflow-y: scroll;
+    height: 500px;
+}
+
+
+.active-course {
+    margin: 30px 0 0 20px;
+    color: #3740FF;
+}
+
+.active-course a {
+    text-decoration: none;
+}
+
+.navbar-title {
+    font-size: 20px;
+    padding-left: 20px;
+    margin-top: 32px;
+}
+
+.leftbar__navbar {
+    font-size: 16px;
+}
+.leftbar__navbar-list {
+    padding: 0px;
+}
+
+.leftbar__navbar-link {
+    list-style-type: none;
+    padding: 20px;
+
+}
+
+.leftbar__navbar-link a .numbering, .active-course .numbering {
+    padding: 20px;
+
+}
+
+.leftbar__navbar-link a {
+    text-decoration: none;
+    color: #686A72;
+   
+
+}
+
+.leftbar__navbar-link a:hover {
+    background-color: #f8f9fa;
+}
